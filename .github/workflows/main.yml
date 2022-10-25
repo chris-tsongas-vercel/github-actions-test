@@ -19,4 +19,4 @@ jobs:
       - name: Install Vercel CLI
         run: npm install --global vercel
       - name: add env var
-        run: vercel env add TEST preview feat/HCD-1499_E --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel env add TEST preview HCD-1499_E --token=${{ secrets.VERCEL_TOKEN }}
